@@ -22,8 +22,8 @@ public class Main {
         a2 = Integer.parseInt(d);
         f = String.valueOf(a3);
         b2 = Double.valueOf(a4);
-
         Random numeroRandom = new Random();
+
 
         int random_entero = numeroRandom.nextInt();
         double random_double = numeroRandom.nextDouble();
@@ -41,11 +41,9 @@ public class Main {
         System.out.println(10 >= 9);
         System.out.println(10 <= 9);
         System.out.println(10 != 9);
-
         int x=3;
-
+        
         System.out.println(x<5 && x>10);
         System.out.println(x<5 || x>10);
-        
     }
 }
